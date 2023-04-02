@@ -1,0 +1,75 @@
+#injected-content{
+    width: 100%;
+    max-height: 90%;
+    flex: 1;
+    
+    background-image: url("assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#games_render{
+    width: 70%;
+    padding: 0 0 15px 0;
+
+    color: var(--color-navbar-text);
+}
+
+#games_render > div:first-child{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#games_container{
+    overflow-y: scroll;
+
+    height: 90%;
+}
+
+.game_container > div:first-child{
+    font-size: 1.5rem;
+}
+
+.game_container{
+    width: 100%;
+    border: 2px solid var(--color-game-container-border);
+    border-radius: 4px;
+
+    background-color: var(--color-game-container-fond);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+
+    margin: 0 10px 10px 0;
+}
+
+.game_container > div:last-child{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    height: 200px;
+}
+
+.game_container > div:last-child > p {
+    margin-top: 6px;
+    display: block;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.9rem;
+}
+
+.game_image{
+    min-width: 150px;
+    max-height: 200px;
+}
+

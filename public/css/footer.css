@@ -1,0 +1,18 @@
+footer{
+    position: absolute;
+    bottom: 0;
+
+    height: 40px;
+
+    width: 100%;
+    background-color: var(--color-navbar-fond);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer > * {
+    color: var(--color-navbar-text);
+}
